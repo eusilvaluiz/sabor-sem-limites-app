@@ -1,0 +1,1 @@
+-- Corrigir políticas RLS favoritos

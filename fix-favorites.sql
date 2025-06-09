@@ -1,0 +1,1 @@
+DROP POLICY IF EXISTS "favorites_users_own" ON favorites; CREATE POLICY "favorites_select_own" ON favorites FOR SELECT USING (auth.uid()::text = user_id); CREATE POLICY "favorites_insert_own" ON favorites FOR INSERT WITH CHECK (auth.uid()::text = user_id); CREATE POLICY "favorites_delete_own" ON favorites FOR DELETE USING (auth.uid()::text = user_id);

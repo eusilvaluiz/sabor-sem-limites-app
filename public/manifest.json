@@ -1,0 +1,73 @@
+{
+  "name": "DeliciasDoBem - Receitas Sem Glúten e Sem Lactose",
+  "short_name": "DeliciasDoBem",
+  "description": "Descubra receitas deliciosas 100% sem glúten e sem lactose com a ajuda da Chef LéIA",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ec4899",
+  "orientation": "portrait-primary",
+  "categories": ["food", "health", "lifestyle"],
+  "lang": "pt-BR",
+  "icons": [],
+  "screenshots": [
+    {
+      "src": "/screenshots/desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "DeliciasDoBem no Desktop"
+    },
+    {
+      "src": "/screenshots/mobile.png",
+      "sizes": "375x812",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "DeliciasDoBem no Mobile"
+    }
+  ],
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "scope": "/",
+  "shortcuts": [
+    {
+      "name": "Chef LéIA",
+      "short_name": "Chef LéIA",
+      "description": "Converse com a Chef LéIA",
+      "url": "/ai-nutrition",
+      "icons": [
+        {
+          "src": "/icons/chef-leia-shortcut.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Favoritos",
+      "short_name": "Favoritos",
+      "description": "Suas receitas favoritas",
+      "url": "/favorites",
+      "icons": [
+        {
+          "src": "/icons/favorites-shortcut.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Categorias",
+      "short_name": "Categorias",
+      "description": "Explorar por categorias",
+      "url": "/categories",
+      "icons": [
+        {
+          "src": "/icons/categories-shortcut.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+} 
